@@ -1,14 +1,69 @@
-[
-  {
-    "regno":"20123323",
-     "name":"Vignesh",
-     "dob":"25-05-2001",
-     "batch":"2020"
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   },
-  {
-    "regno":"20123323",
-     "name":"Bala",
-     "dob":"25-05-2001",
-     "batch":"2020"
-  }
-]
+  "employees": [
+    {
+      "firstName": "vignesh",
+      "lastName": "R",
+      "email": "vignesh@gmail.com",
+      "id": 1
+    },
+    {
+      "firstName": "kannan",
+      "lastName": "Kumar",
+      "email": "kannan74@outlook.com",
+      "id": 2
+    },
+    {
+      "firstName": "Mohammed ",
+      "lastName": "Alim",
+      "email": "Alim@outlook.org",
+      "id": 3
+    },
+    {
+      "firstName": "mani",
+      "lastName": "Kandan",
+      "email": "manimaran@gmail.com",
+      "id": 4
+    },
+    {
+      "firstName": "Arun",
+      "lastName": "Kumar",
+      "email": "arunkm@gmail.com",
+      "id": 5
+    },
+    {
+      "firstName": "John",
+      "lastName": "Mic",
+      "email": "mic4@ot.com",
+      "id": 6
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmailcom",
+      "id": 7
+    },
+    {
+      "firstName": "sdsd",
+      "lastName": "",
+      "email": "",
+      "id": 8
+    }
+  ]
+}
